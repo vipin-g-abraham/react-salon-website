@@ -1,0 +1,28 @@
+.footer{
+    padding-inline:60px;
+    padding-block: 30px;
+    background-color: rgb(2, 17, 70);
+    min-height: 2rem;
+    justify-self: flex-end;
+    color:white;
+    margin-top: auto;
+}
+.footer-container-1{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+@media(max-width:800px){
+    .footer-container-1{
+        flex-direction:column;
+        text-align:center;
+        align-items: center;
+    }
+    #copyright{
+        text-align:center;
+    }
+}
+.header-buttons{
+    display:flex;
+    gap:30px;
+}

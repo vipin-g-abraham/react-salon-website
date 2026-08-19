@@ -1,0 +1,79 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+.primary-header {
+    display: flex;
+    padding: 2rem 4rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    align-items: center;
+
+}
+
+.mobile-header {
+    display: none;
+    padding: 1em 2em;
+}
+
+.mobile-header .header-buttons button:nth-child(2) {
+    display: none;
+}
+
+.mobile-header .nav-menu {
+    display: none;
+    margin-top: 10%;
+    flex-direction: column;
+    margin-inline: auto;
+    gap: 24px;
+}
+
+.menu-icon,
+.close-icon {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+@media(max-width:64rem) {
+    .mobile-header {
+        display: flex;
+    }
+
+    .mobile-header .nav-menu {
+        display: flex;
+    }
+
+    .primary-header {
+        display: none;
+    }
+
+    /* TODO find an easier way to fix button height issue */
+    .mobile-header .header-buttons {
+        margin-left: auto;
+        max-height: 40px;
+    }
+}
+
+.primary-header .branding {
+    margin-right: 2rem;
+}
+
+.primary-header .menu-link {
+    padding: 0.8em 1em;
+    text-transform: uppercase;
+}
+
+.header .menu-link a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #021146;
+}
+
+.primary-header .header-buttons {
+    margin-left: auto;
+}

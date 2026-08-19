@@ -1,0 +1,47 @@
+
+.services-page .services-banner{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #021146;
+    color:white;
+    padding:4rem;
+    padding-right:0;
+}
+.services-banner h2 spanm {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.25rem;
+    text-transform: uppercase;
+}
+
+.services-page .equal-columns{
+    display:flex;
+    flex-basis: 100%;
+    gap:2rem;
+    }
+  
+    @media(max-width:800px){
+        .services-page div:nth-child(2){
+            display:none;
+        }
+        .services-page .equal-columns{
+            flex-direction: column-reverse;
+            
+        }
+    }
+    .services-page .equal-columns div{
+        max-width: 450px;
+    }
+    .services-page h2{
+        font-size:42px;
+        margin-bottom:1rem;
+    }
+    .services-page p{
+        margin-bottom:1rem;
+    }
+    .services-page img{
+        position:relative;
+        width:500px;
+        bottom:4rem;
+    }
+ 

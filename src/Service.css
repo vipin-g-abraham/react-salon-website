@@ -1,0 +1,46 @@
+.service {
+    color: #021146;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-inline: auto;
+    justify-content: center;
+    padding: 4rem;
+    gap: 65px;
+}
+.service h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.service p {
+    font-size: 1.25rem;
+    margin-block: 20px;
+}
+@media (min-width: 768px) {
+    .service {
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+      gap: 2rem 4rem;
+    }
+    .service h2 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  
+    .service-body {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .service img {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+  }
+

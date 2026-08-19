@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+  }
+.app {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
+    font-size: 2.625rem;
+
+}
+
+body {
+    font-family: hanken-grotesk-black, sans-serif;
+}
+
+button.primary-button {
+    text-transform: uppercase;
+    padding: 0.8em 1.5em;
+    background-color: rgb(21, 62, 232);
+    color: white;
+    font-weight: 700;
+    border-radius: 1em;
+    border: none;
+}
+button.primary-button:hover {
+    background-color: white;
+    color: rgb(21, 62, 232);
+    outline:2px solid rgb(21, 62, 232);
+}
+button.primary-button-dark-bg {
+    text-transform: uppercase;
+    padding: 0.8em 1.5em;
+    background-color: white;
+    color: rgb(2, 17, 70);
+    font-weight: 700;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+}
+button.primary-button-dark-bg:hover{
+    color: white;
+    background-color: rgb(2, 17, 70);
+    outline:2px solid rgb(21, 62, 232);
+}
+
+button.secondary-button {
+    text-transform: uppercase;
+    padding: 0.8em 1.5em;
+    background-color: white;
+    color: rgb(21, 62, 232);
+    border:none;
+    font-weight: 700;
+    border-radius: 1em;
+    outline:2px solid rgb(21, 62, 232);
+}
+button.secondary-button:hover {
+    background-color: rgb(21, 62, 232);
+    color: white;
+}

@@ -1,0 +1,16 @@
+.card{
+    width:400px;
+    height:500px;
+    background-size: cover;
+    background-position: center center;
+    border-radius:2rem;
+    position:relative;
+}
+.card img{
+    width:20px;
+    height:20px;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    z-index: 10;
+}

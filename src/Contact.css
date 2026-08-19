@@ -1,0 +1,31 @@
+.contact-page .contact-form{
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-inline: auto;
+    gap:1.5rem;
+    padding:4rem;
+}
+.contact-page label {
+    font-weight: 600;
+}
+.contact-form input[type="text"], .contact-page textarea{
+    border-radius:1em;
+    border:1px solid hsl(0, 0%, 18%);
+    padding:0.5em;
+}
+.contact-form>div{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+
+.contact-form textarea{
+    min-height: 5em;
+    resize:none;
+}
+.contact-page .error{
+    font-size:0.7rem;
+    margin-top:0.5rem;
+    color:rgb(190, 43, 43);
+}

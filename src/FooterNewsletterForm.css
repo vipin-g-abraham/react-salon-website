@@ -1,0 +1,21 @@
+.footer-newsletter p{
+    margin-bottom: 10px;
+}
+.footer-newsletter-form input{
+    padding:0.5em 1em;
+    border-radius: 1em;
+}
+.footer-newsletter-form{
+    display:flex;
+    gap:10px;  
+}
+@media(max-width:800px){
+    .footer-newsletter-form{
+        justify-content: center;
+    }
+}
+.footer-newsletter-form .error-message{
+    font-size:0.7rem;
+    margin-top:0.5rem;
+    color:rgb(190, 43, 43);
+}

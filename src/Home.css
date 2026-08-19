@@ -1,0 +1,103 @@
+.home .equal-columns{
+display:flex;
+flex-basis: 100%;
+gap:2rem;
+}
+@media(max-width:800px){
+    .home .equal-columns{
+        flex-direction: column-reverse;
+        
+    }
+}
+.home .equal-columns div{
+    max-width: 450px;
+}
+.home .rewards{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #021146;
+    color:white;
+    padding-block:4rem;
+    padding-inline:4rem;
+}
+.home .rewards h2{
+    font-size:42px;
+    margin-bottom:1rem;
+}
+.home .rewards p{
+    margin-bottom:1rem;
+}
+.home .rewards img{
+    width:min(500px,100%);
+}
+.home-benefit{
+    padding: 60px;
+    text-align: center;
+}
+.home-benefit p, .home-benefit h2, .home-benefit button{
+    max-width: 600px;
+    margin-inline:auto;
+    
+}
+.home-benefit p, .download-app p{
+    margin-block: 20px;
+}
+.home-benefit h2,.download-app h2{
+    margin-bottom:10px;
+}
+.home-benefit img{
+    width:100%;
+    border-radius: 2rem;
+    margin-bottom:10px;
+}
+.home-app-img{
+    width:100%;
+}
+.download-app{
+    padding-inline:60px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.home-careers{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #021146;
+    color:white;
+    padding:4rem;
+    padding-right:0;
+}
+@media(max-width:800px){
+    .home-careers div:nth-child(2){
+        display:none;
+    }
+    .home-careers{
+        padding-right: 4rem;
+    }
+}
+.home-careers h2{
+    font-size:42px;
+    margin-bottom:1rem;
+}
+.home-careers p{
+    margin-bottom:1rem;
+}
+.home-careers img{
+    position:relative;
+    width:500px;
+    bottom:4rem;
+}
+
+.insta-section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:4rem;
+    text-align:center;
+}
+.insta-section button{
+    margin:0 auto 20px;
+}
